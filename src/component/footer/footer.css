@@ -1,0 +1,11 @@
+footer{
+    background: var(--black);
+    padding-block: 50px;
+
+    .social-media{
+        background: var(--stroke);
+        padding: 15px 25px;
+        width: 100%;
+        border-radius: 15px;
+    }
+}

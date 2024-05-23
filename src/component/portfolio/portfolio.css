@@ -1,0 +1,7 @@
+.portfolio-section{
+    .img-item{
+        img{
+            border-radius: 15px;
+        }
+    }
+}

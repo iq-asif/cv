@@ -1,0 +1,31 @@
+.spec-section{
+    background-color: var(--black);
+    padding-bottom: 120px;
+    .spec-box{
+        display: flex;
+        gap: 20px;
+
+        span{
+            padding: 10px;
+            background: var(--yellow);
+            color: var(--black);
+            font-size: 25px;
+            border-radius: 50%;
+            position: relative;
+            width: 20%;
+            height: 50%;
+            line-height: 1.4;
+            font-weight: 600;
+            z-index: 1;
+
+            hr{
+                width: 2px;
+                height: 100px;
+                border-color: var(--border);
+                left: 50%;
+                position: absolute;
+                top: 50px;
+            }
+        }
+    }
+}
