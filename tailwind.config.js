@@ -70,6 +70,21 @@ module.exports = {
       '5': '32px',
       '6': '48px',
     },
+    extend: {
+      spacing: {
+        '5px': '5px',
+      }
+    },
+    extend: {
+      spacing: {
+        '5px': '5px',
+      }
+    },
+    extend: {
+      spacing: {
+        '5px': '5px',
+      }
+    }
   },
   plugins: [],
   corePlugins: {

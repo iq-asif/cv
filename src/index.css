@@ -29,6 +29,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     border-radius: 10px;
+    cursor: pointer;
 }
 .outline-btn{
     color: var(--white);
@@ -51,6 +52,10 @@ section{
     i{
         margin-right: 10px;
     }
+}
+a{
+    color: var(--white);
+    text-decoration: none;
 }
 @tailwind base;
 @tailwind components;

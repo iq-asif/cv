@@ -33,12 +33,15 @@ function Portfolio() {
             <div className='grid grid-cols-4 gap-5'>
                 {
                     portfolioImg.map((data) => (
-                        <a href={data.linkUrl} target='_blank' className='img-item'>
-                            <img src={data.img} className='max-w-full'/>
-                            <div className='portfolio-item'>
-                                {data.companyName}
-                            </div>
-                        </a>
+                        <div className="portfolio-item">
+                            <a href={data.linkUrl} target="_blank">
+                                <div className="content-overlay"></div>
+                                <img className="img-item" src={data.img} alt=""/>
+                                <div className="portfolio-title fadeIn-left">
+                                    <h3>{data.companyName}</h3>
+                                </div>
+                            </a>
+                        </div>
                     ))
                 }
             </div>
