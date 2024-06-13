@@ -29,9 +29,9 @@ function Service() {
             
             <div>
                 <span className='title-outline'><i class="bi bi-laptop"></i>Services</span>
-                <h2 className='text-5xl py-5'>My Specialization</h2>
+                <h2 className='text-5xl py-5 max-[600px]:text-2xl'>My Specialization</h2>
             </div>
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid grid-cols-3 gap-4 max-[600px]:grid-cols-1'>
                 {
                     specialization.map((data) => (
                         

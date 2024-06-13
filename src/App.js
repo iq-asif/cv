@@ -6,7 +6,6 @@ import Resume from './component/resume/Resume';
 import Service from './component/services/Service';
 import Skills from './component/skills/Skills';
 import Portfolio from './component/portfolio/Portfolio';
-import Api from './component/Api';
 import Footer from './component/footer/Footer';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <Service/>
       <Skills/>
       <Portfolio/>
-      <Api/>
       <Footer/>
     </div>
   );

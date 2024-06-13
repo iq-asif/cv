@@ -1,6 +1,10 @@
 .profile-section{
     span{
         font-size: 20px;
+
+        @media (max-width: 768px){
+            font-size: 14px;
+        }
     }
     h2:first-child{
         font-weight: 700;
@@ -11,6 +15,10 @@
     }
     .btn-item{
         padding-top: 60px;
+
+        @media (max-width: 768px){
+            padding-top: 30px;
+        }
         a i{
             margin-left: 15px;
         }

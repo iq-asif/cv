@@ -5,11 +5,11 @@ function About() {
   return (
     <section className='about-section'>
         <div className='container'>
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='grid grid-cols-2 gap-6 max-[600px]:gap-4'>
                 <div className='about-item'>
                     <span className='title-outline'><i class="fa-regular fa-user"></i>About me</span>
-                    <div className='content-item'>
-                        <h2>Every great design begin<br/>withan even better story</h2>
+                    <div className='content-item max-[600px]:text-sm'>
+                        <h2>Every great design begin<br/> withan even better story</h2>
                         <p>At vero eos et accusamus etodio dignissimos ducimus praesentium
                         voluptatum corrupti quos dolores quas molestias excepturi sint
                         occaecati cupiditate provident qui officia deserunt mollitia animi,
@@ -48,8 +48,8 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className='img-item'>
-                    <img src='https://dummyimage.com/600x550'/>
+                <div className='img-item '>
+                    <img src='https://dummyimage.com/600x500' alt='' className='w-full max-[600px]:min-h-24'/>
                 </div>
             </div>
         </div>

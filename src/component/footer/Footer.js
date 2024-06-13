@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css'
 function Footer() {
-    const footerItem = [
+    const contactItem = [
         {
             email: 'asifraza7050@gmail.com',
             content: 'At vero eos et accusamus etodio dignissimos ducimus praesentium voluptatum corrupti',
@@ -14,9 +14,9 @@ function Footer() {
   return (
       <footer>
         { 
-            footerItem.map ((data) =>  (
+            contactItem.map ((data) =>  (
                 <div className='container'>
-                    <div className='grid grid-cols-2 gap-6'>
+                    <div className='grid grid-cols-2 gap-6 max-[600px]:grid-cols-1'>
                         <div className='get-in-item'>
                             <span className='title-outline'><i class="fa-regular fa-user"></i>Get in Touch</span>
                             <div className='content-item'>

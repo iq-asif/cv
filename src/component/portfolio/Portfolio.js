@@ -28,9 +28,9 @@ function Portfolio() {
         <div className='container'>
             <div>
                 <span className='title-outline'><i class="bi bi-laptop"></i>Portfolio</span>
-                <h2 className='text-5xl py-5'>Featured Projects</h2>
+                <h2 className='text-5xl py-5 max-[600px]:text-2xl'>Featured Projects</h2>
             </div>
-            <div className='grid grid-cols-4 gap-5'>
+            <div className='grid grid-cols-4 gap-5 max-[600px]:grid-cols-2'>
                 {
                     portfolioImg.map((data) => (
                         <div className="portfolio-item">

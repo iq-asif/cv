@@ -65,7 +65,7 @@ const Resume = () => {
           <div className='grid grid-cols-2'>
               <div>
                   <span className='title-outline'><i class="bi bi-briefcase"></i>My Resume</span>
-                  <h2 className='text-5xl py-5'>Real Problem Solutions Experience</h2>
+                  <h2 className='text-5xl py-5 max-[600px]:text-2xl'>Real Problem Solutions Experience</h2>
               </div>
               <div className='star'>
                   <span><i class="bi bi-asterisk"></i></span>
@@ -73,7 +73,7 @@ const Resume = () => {
           </div>
         </div>
         <div className='container work-exp'>
-          <div className='grid grid-cols-4 gap-3'>
+          <div className='grid grid-cols-4 gap-3 max-[600px]:grid-cols-1'>
             {
               workInfoData.map((data) => (
                 <div className='work-section-info'>

@@ -15,6 +15,10 @@
     }
     .work-exp{
         padding-block: 50px;
+
+        @media (max-width: 768px){
+            padding-bottom: 0;
+        }
         .arrow{
             font-size: 30px;
             width: 20%;

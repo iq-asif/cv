@@ -16,19 +16,29 @@ function Skills() {
             skillPercent: '80%',
         },
         {
-            icon: require('./img/bootstrap.png'),
-            skillTitle: 'Bootstrap',
+            icon: require('./img/tailwind.png'),
+            skillTitle: 'Tailwind CSS',
             skillPercent: '80%',
         },
         {
-            icon: require('./img/wordpress.png'),
-            skillTitle: 'WordPress',
+            icon: require('./img/bootstrap.png'),
+            skillTitle: 'Bootstrap',
             skillPercent: '80%',
         },
         {
             icon: require('./img/javascript.png'),
             skillTitle: 'JavaScript',
             skillPercent: '25%',
+        },
+        {
+            icon: require('./img/react.png'),
+            skillTitle: 'React JS',
+            skillPercent: '25%',
+        },
+        {
+            icon: require('./img/wordpress.png'),
+            skillTitle: 'WordPress',
+            skillPercent: '80%',
         },
         {
             icon: require('./img/figma.png'),
@@ -47,15 +57,15 @@ function Skills() {
         },
     ];
   return (
-    <section className='skills-section'>
-        <div className='container py-5'>
-            <div className='grid grid-cols-2 items-center gap-6'>
+    <section className='skills-section max-[600px]:pb-5'>
+        <div className='container py-5 max-[600px]:pb-1 '>
+            <div className='grid grid-cols-2 items-center gap-5 auto-cols-max max-[600px]:grid-cols-1'>
                 <div className='skills-content-item'>
                     <span className='title-outline'><i class="bi bi-vector-pen"></i>My Skills</span>
-                    <h2 className='text-5xl py-5'>Let’s Explore Popular Skills & Experience</h2>
+                    <h2 className='text-5xl py-5 max-[600px]:text-2xl'>Let’s Explore Popular Skills & Experience</h2>
                     <p>Sed ut perspiciatis unde omnis iste natus to voluptatem accusantium doloremque laudantium, totam rem aperiamc eaque ipsa quae ab illo inventore veritatis</p>
                 </div>
-                <div className='grid grid-cols-4 gap-4 text-center'>
+                <div className='grid grid-cols-4 gap-3 text-center max-[600px]:grid-cols-2'>
                     {
                         skillsItem.map((data) => (
                             <div className='skills-box'>

@@ -73,18 +73,38 @@ module.exports = {
     extend: {
       spacing: {
         '5px': '5px',
+      },
+      spacing: {
+        '128': '32rem',
+      },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        '16': 'repeat(16, minmax(0, 1fr))',
+
+        // Complex site-specific column configuration
+        'footer': '200px minmax(900px, 1fr) 100px',
+      },
+      fontSize: {
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
       }
     },
-    extend: {
-      spacing: {
-        '5px': '5px',
-      }
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
     },
-    extend: {
-      spacing: {
-        '5px': '5px',
-      }
-    }
+    
   },
   plugins: [],
   corePlugins: {
