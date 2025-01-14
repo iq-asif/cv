@@ -21,13 +21,14 @@
         }
         .arrow{
             font-size: 30px;
-            width: 20%;
-            height: 60%;
+            width: 50px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: var(--black);
             background-color: var(--yellow);
+            line-height: 1;
         }
         .work-section-info{
             display: flex;

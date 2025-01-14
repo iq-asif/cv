@@ -15,7 +15,7 @@ function Footer() {
       <footer>
         { 
             contactItem.map ((data) =>  (
-                <div className='container'>
+                <div className='container px-5'>
                     <div className='grid grid-cols-2 gap-6 max-[600px]:grid-cols-1'>
                         <div className='get-in-item'>
                             <span className='title-outline'><i class="fa-regular fa-user"></i>Get in Touch</span>

@@ -3,29 +3,29 @@ import "./portfolio.css";
 function Portfolio() {
     const portfolioImg = [
         {
-            img: require('./img/bmits.jpg'),
+            img: require('../../assets/images/bmits.jpg'),
             linkUrl: 'https://bestonemits.com/',
             companyName: 'Bestone Meest IT Services',
         },
         {
-            img: require('./img/bestone-water.jpg'),
+            img: require('../../assets/images/bestone-water.jpg'),
             linkUrl: 'https://bestonewater.com/',
             companyName: 'Bestone Water',
         },
         {
-            img: require('./img/malana-marino.jpg'),
+            img: require('../../assets/images/malana-marino.jpg'),
             linkUrl: 'https://www.malanamerino.com/',
             companyName: 'Malana Merino (E-commerce)',
         },
         {
-            img: require('./img/tejas-opt.jpg'),
+            img: require('../../assets/images/tejas-opt.jpg'),
             linkUrl: 'https://tejasoptical.com/',
             companyName: 'Tejas Optical (Informative)',
         },
     ]
   return (
     <section className='portfolio-section'>
-        <div className='container'>
+        <div className='container px-5'>
             <div>
                 <span className='title-outline'><i class="bi bi-laptop"></i>Portfolio</span>
                 <h2 className='text-5xl py-5 max-[600px]:text-2xl'>Featured Projects</h2>

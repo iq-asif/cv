@@ -25,8 +25,7 @@ function Service() {
 
   return (
     <section className='spec-section'>
-        <div className='container'>
-            
+        <div className='container px-5'>
             <div>
                 <span className='title-outline'><i class="bi bi-laptop"></i>Services</span>
                 <h2 className='text-5xl py-5 max-[600px]:text-2xl'>My Specialization</h2>
@@ -34,7 +33,6 @@ function Service() {
             <div className='grid grid-cols-3 gap-4 max-[600px]:grid-cols-1'>
                 {
                     specialization.map((data) => (
-                        
                         <div className='spec-box'>
                             <span>
                                 {data.no}
@@ -45,13 +43,10 @@ function Service() {
                                 <p>{data.description}</p>
                             </div>
                         </div>
-                        
                     ))
                 }
             </div>
         </div>
-
-
     </section>
   )
 }

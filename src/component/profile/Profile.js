@@ -1,22 +1,13 @@
 import React from 'react';
 import pdf from '../profile/assets/Asif-Iqbal-Resume.pdf';
 import './profile.css'
+import profileImg from '../profile/assets/Asif-profile.jpg';
 
 function Profile() 
 {
-    // const onButtonClick = () => {
-    //    const pdfUrl = "../profile/assets/Asif-Iqbal-Resume.pdf";
-    //    const link = document.createElement('a');
-    //    link.href =  pdfUrl;
-    //    link.download = 'Asif-Iqbal-Resume.pdf';
-    //    document.body.appendChild(link);
-    //    link.click();
-    //    document.body.removeChild(link);
-   
-    // };
   return (
     <section className='profile-section'>
-        <div className='container'>
+        <div className='container px-5'>
             <div className='grid grid-cols-2 items-center'>
                 <div className='profile-content leading-snug'>
                     <span className='md:text-sm'>This is me</span>
@@ -30,7 +21,7 @@ function Profile()
                     </div>
                 </div>
                 <div className='profile-img'>
-                    <img src='https://dummyimage.com/600x500' alt='Asif' className='w-full '/>
+                    <img src={profileImg} alt='Asif' className='w-full '/>
                 </div>
             </div>
         </div>

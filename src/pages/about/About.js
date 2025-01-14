@@ -1,10 +1,11 @@
 import React from 'react';
-import './about.css'
+import './about.css';
+import profileImg from '../../component/profile/assets/Asif-profile.jpg';
 
 function About() {
   return (
     <section className='about-section'>
-        <div className='container'>
+        <div className='container px-5'>
             <div className='grid grid-cols-2 gap-6 max-[600px]:gap-4'>
                 <div className='about-item'>
                     <span className='title-outline'><i class="fa-regular fa-user"></i>About me</span>
@@ -49,7 +50,7 @@ function About() {
                     </div>
                 </div>
                 <div className='img-item '>
-                    <img src='https://dummyimage.com/600x500' alt='' className='w-full max-[600px]:min-h-24'/>
+                    <img src={profileImg} alt='' className='w-full max-[600px]:min-h-24'/>
                 </div>
             </div>
         </div>
