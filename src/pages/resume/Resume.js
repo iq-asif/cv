@@ -42,7 +42,7 @@ const Resume = () => {
             {
               workInfoData.map((item) => (
                 <div className='work-section-info'>
-                  <a href={item.url} target='_blank'>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <span className='arrow'><i class="bi bi-arrow-up-right"></i></span>
                   </a>
                   <div className='work-content'>

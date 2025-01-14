@@ -34,7 +34,7 @@ function Portfolio() {
                 {
                     portfolioImg.map((data) => (
                         <div className="portfolio-item">
-                            <a href={data.linkUrl} target="_blank">
+                            <a href={data.linkUrl} target="_blank" rel="noopener noreferrer">
                                 <div className="content-overlay"></div>
                                 <img className="img-item" src={data.img} alt=""/>
                                 <div className="portfolio-title fadeIn-left">
