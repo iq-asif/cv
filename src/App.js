@@ -8,7 +8,6 @@ import Service from './pages/services/Service';
 import Skills from './pages/skills/Skills';
 import Portfolio from './pages/portfolio/Portfolio';
 import Footer from './component/footer/Footer';
-import ContactForm from './ContactForm';
 
 function App() {
   return (

@@ -68,7 +68,7 @@ function Skills() {
                     {
                         skillsItem.map((data) => (
                             <div className='skills-box'>
-                                <img src={data.icon}></img>
+                                <img src={data.icon} alt='Description'/>
                                 <span className='block font-semibold py-2'>{data.skillTitle}</span>
                                 <span>{data.skillPercent}</span>
                             </div>

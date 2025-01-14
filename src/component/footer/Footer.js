@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css'
+import { Link } from 'react-router-dom';
 function Footer() {
     const contactItem = [
         {
@@ -39,8 +40,8 @@ function Footer() {
                             </address>
                             <div className='social-media'>
                                 <a href={data.linkedIn}><i class="fa-brands fa-linkedin-in"></i></a>
-                                <a href='#'><i class="fa-brands fa-facebook-f"></i></a>
-                                <a href='#'><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className='form-item'>

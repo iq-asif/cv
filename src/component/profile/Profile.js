@@ -16,7 +16,7 @@ function Profile()
                         <h2>Web Designer</h2>
                     </div>
                     <div className='btn-item'>
-                        <a href='#' className='btn primary-btn me-6 max-[600px]:inline-block max-[600px]:mb-2'>Hire me<i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="#" className='btn primary-btn me-6 max-[600px]:inline-block max-[600px]:mb-2'>Hire me<i class="fa-solid fa-chevron-right"></i></a>
                         <a href={pdf} download='Asif-Iqbal-Resume.pdf' className='outline-btn '>Download Resume<i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
